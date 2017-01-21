@@ -1,3 +1,8 @@
+/**
+ * Pitch Shifter
+ * copyright(c) 2013 SabaMotto.
+ */
+
 import ddf.minim.*;
 import ddf.minim.analysis.*;
 import ddf.minim.effects.*;
@@ -23,7 +28,7 @@ void selectSound() {
   if (song != null) song.close();
   song = null; effect = null;
   nextRate = ""; pmode = 0;
-  selectInput("MP3かWAVを選択してください", "fileSelected");
+  selectInput("Please choose your wav or mp3 audio file", "fileSelected");
 }
 
 void fileSelected(File selection) {
@@ -170,9 +175,7 @@ void decideRate() {
 }
 
 void stop() {
-  // the AudioPlayer you got from Minim.loadFile()
   if (song != null) song.close();
   minim.stop();
   super.stop();
 }
-
