@@ -11,19 +11,19 @@ If you use this code, you should contrive the algorithm.
 
 ## Control
 - File
- * 'O' key : Open a file
+  * 'O' key : Open a file
 - Player
- * Return/Enter key : Pause or Play
- * Left key : Seek backward for 2s
- * Right key : Seek forward for 1s
+  * Return/Enter key : Pause or Play
+  * Left key : Seek backward for 2s
+  * Right key : Seek forward for 1s
 - Pitch Effect
- * Mouse Horizontal Drag : Pitch and Amplitude control
- * 'A' key : Switch auto gain control mode
- * 'P' key : Change input mode to Pitch
- * 'G' key : Change input mode to Gain
- * 'Z' key : Switch input mode
- * Numeric/'.' key : Input new Pitch/Gain value
- * BS key : Delete last number or period.
+  * Mouse Horizontal Drag : Pitch and Amplitude control
+  * 'A' key : Switch auto gain control mode
+  * 'P' key : Change input mode to Pitch
+  * 'G' key : Change input mode to Gain
+  * 'Z' key : Switch input mode
+  * Numeric/'.' key : Input new Pitch/Gain value
+  * BS key : Delete last number or period.
 
 ## Author
 @sabamotto
