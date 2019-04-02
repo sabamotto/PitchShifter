@@ -3,7 +3,7 @@ A Realtime Pitch Shift Effector with Processing and Minim.
 
 This effect algorithm is FFT and simple interpolated shifting frequency.
 So it is low quarity, very slowly, and not useful.
-If you use this code, you should contrive the algorithm.
+If you use this code, you should improve the algorithm.
 
 ## Environment
 - Processing 2 or 3
@@ -17,7 +17,8 @@ If you use this code, you should contrive the algorithm.
   * Left key : Seek backward for 2s
   * Right key : Seek forward for 1s
 - Pitch Effect
-  * Mouse Horizontal Drag : Pitch and Amplitude control
+  * Mouse Vertical Drag : Amplitude control
+  * Mouse Horizontal Drag : Pitch control
   * 'A' key : Switch auto gain control mode
   * 'P' key : Change input mode to Pitch
   * 'G' key : Change input mode to Gain
